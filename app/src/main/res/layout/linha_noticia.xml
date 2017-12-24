@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <ImageView
+        android:id="@+id/txt_img"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="13dp"
+        android:layout_toEndOf="@+id/txt_img"
+        android:layout_toRightOf="@+id/txt_img"
+        android:textStyle="bold"
+        android:text="arin é considerado culpado pelo júri da corte "/>
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_titulo"
+        android:layout_alignStart="@+id/txt_titulo"
+        android:layout_below="@+id/txt_titulo"
+        android:layout_marginTop="10dp"
+        android:text="José Maria Marin esteve na corte federal dos EUA e segue sendo investigado por sete acusações de corrupção"/>
+
+</RelativeLayout>
+</LinearLayout>
